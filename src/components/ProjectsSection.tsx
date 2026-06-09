@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import Image from 'next/image';
 
-type ProjectCategory = 'all' | 'client' | 'personal' | 'ui/ux';
+type ProjectCategory = 'all' | 'client' | 'personal' | 'ui/ux' | 'design';
 
 type Project = {
     id: number;
