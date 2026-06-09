@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import Image from 'next/image';
 
-type ProjectCategory = 'all' | 'client' | 'personal' | 'ui/ux' | 'design';
+type ProjectCategory = 'all' | 'client' | 'personal' | 'ui/ux' ;
 
 type Project = {
     id: number;
@@ -307,7 +307,7 @@ export default function ProjectsSection() {
                 <div className={`projects-grid ${visibleProjects.length === 1 ? 'projects-grid-single' : ''}`}>
                     {visibleProjects.map((project) => {
                         //can i remove this line?
-                        const isDesignCategory = project.category === 'design';
+                        
                         const aspectRatioClass = 'project-image-video';
 
                         // Arrow icon SVG
