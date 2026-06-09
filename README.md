@@ -1,4 +1,4 @@
-# Xabiso Memani - Portfolio
+# Mohamamd Farhan - Portfolio
 
 A custom portfolio website designed and built from scratch to showcase my work, personality, and technical skills. Every element was crafted by hand—no templates, no frameworks dictating the design. This project reflects my approach to frontend development: thoughtful UX, clean code, and attention to detail.
 
