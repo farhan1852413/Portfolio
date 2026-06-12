@@ -24,6 +24,16 @@ type Project = {
 };
 const projects: Project[] = [
     {
+        id: 1,
+        title: 'Fifa WC 2026 fantasy site',
+        description: ' a real-time predictions app where you and your friends compete to predict World Cup match scores. Earn points for correct winners and exact scores, climb the leaderboard, and create private leagues to compete within your group. Built with React, Firebase, and live FIFA match data.',
+        tech: ['React', 'TypeScript', 'Firebase Realtime Database', 'Firebase Auth', 'Firebase Hosting', 'Vite', 'Tailwind CSS', 'React Router', 'FIFA Public API', 'Cloudinary'],
+        category: 'personal' as ProjectCategory,
+        screenshot: '/images/fifawc2026.webp',
+        demoUrl: 'https://fifa-wc-2026-six.vercel.app',
+        year: 'NEWW! (2024)',
+    },
+    {
         id: 12,
         title: 'Home Manager',
         description: 'HomeManager is a full-stack smart home management application built using React.js, Node.js, Express.js, and MongoDB. It provides users with a centralized platform to manage rooms, control smart devices, and securely handle user accounts through JWT authentication. The application also integrates weather and news services to enhance the smart home experience with real-time information.',
@@ -41,7 +51,6 @@ const projects: Project[] = [
         tech: ['Next.js', 'React', 'TypeScript', 'MongoDB', 'OAuth', 'Nodemailer', 'UI/UX', 'JWT', 'TailwindCSS'],
         category: 'personal' as ProjectCategory,
         screenshot: '/images/jobtrackr.webp',
-        githubUrl: 'https://github.com/XabisoMemani/JobTrackr-Showcase',
         demoUrl: 'https://jobtrackr-xabiso.vercel.app/',
         year: 'NEW! (2026)',
     },
@@ -55,17 +64,6 @@ const projects: Project[] = [
         screenshot: '/images/intellisave.webp',
         demoUrl: 'https://xabisomemani.github.io/IntelliSave/index.html',
         chromeUrl: 'https://chromewebstore.google.com/detail/intellisave/knemlapnohmfinjfondkjhdnoahfafko',
-        year: '2024',
-    },
-    {
-        id: 2,
-        title: 'Find My Uni',
-        description: 'A full-stack web application designed to help South African students find the perfect university program. Simply input your marks to automatically calculate your APS score and discover matching courses. Features user authentication and a smooth, animated UI!',
-        tech: ['HTML5', 'CSS3', 'JavaScript', 'WCF', '.NET Framework', 'C#', 'SQL Server'],
-        category: 'personal' as ProjectCategory,
-        screenshot: '/images/findmyuni.webp',
-        githubUrl: 'https://github.com/XabisoMemani/FindMyUni',
-        demoUrl: 'https://findmyuni-xabiso.vercel.app',
         year: '2024',
     },
     {
