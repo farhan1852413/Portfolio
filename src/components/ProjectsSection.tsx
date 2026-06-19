@@ -84,9 +84,7 @@ const projects: Project[] = [
         tech: ['Chrome Extension', 'JavaScript', 'Manifest V3', 'Automation'],
         category: 'personal' as ProjectCategory,
         screenshot: '/images/intellisave.webp',
-        demoUrl: 'https://xabisomemani.github.io/IntelliSave/index.html',
-        chromeUrl: 'https://chromewebstore.google.com/detail/intellisave/knemlapnohmfinjfondkjhdnoahfafko',
-        year: '2024',
+        
     },
     {
         id: 13,
