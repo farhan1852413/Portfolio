@@ -67,7 +67,7 @@ export default function ResumeSection() {
                                         <div className="timeline-year">2016 - 2020</div>
                                     </div>
                                     <div className="timeline-right-part">
-                                        <h4 className="timeline-title">Sainik School [Your School Name]</h4>
+                                        <h4 className="timeline-title">Sainik School </h4>
                                         <p className="timeline-institution">Secondary School Education</p>
                                         <div className="timeline-description">
                                             <div className="achievement-badge">🏐 Captain — Volleyball Team</div>
