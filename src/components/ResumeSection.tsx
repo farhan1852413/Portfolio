@@ -19,7 +19,7 @@ export default function ResumeSection() {
             <div className="section-content">
                 <div className="resume-header">
                     <h2 className="section-title">RESUME</h2>
-                    <div className="experience-badge">7+ Years Coding Experience</div>
+                    <div className="experience-badge">2+ Years Coding Experience</div>
                 </div>
                 <div className="resume-grid">
                     <div className="resume-left">
@@ -141,33 +141,37 @@ export default function ResumeSection() {
                             <div className="certifications-list">
                                 <div className="certification-item">
                                     <div className="certification-header">
-                                        <h4 className="certification-title">
-                                            • Responsive Web Design
-                                        </h4>
+                                        <h4 className="certification-title">• Build a Website on Google Cloud Skill Badge</h4>
                                     </div>
-                                    <p className="certification-institution">freeCodeCamp</p>
-                                    <p className="certification-date">Obtained: January 2025</p>
-                                    <p className="certification-skills">Skills: HTML, CSS, Js, Web Accessibility</p>
+                                    <p className="certification-institution">Google Cloud</p>
+                                    <p className="certification-date">
+                                        <a
+                                            className="certification-link"
+                                            href="https://www.skills.google/public_profiles/c4f94ee1-dbe8-4d80-8f9f-ad2b4dc13254/badges/29049952"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            View badge
+                                        </a>
+                                    </p>
+                                    <p className="certification-skills">Skills: Cloud Run, Compute Engine, Google Kubernetes Engine, Cloud Build, microservices</p>
                                 </div>
                                 <div className="certification-item">
                                     <div className="certification-header">
-                                        <h4 className="certification-title">
-                                            • Prompt Design in Vertex AI
-                                        </h4>
+                                        <h4 className="certification-title">• The Basics of Google Cloud Compute</h4>
                                     </div>
-                                    <p className="certification-institution">Google</p>
-                                    <p className="certification-date">Obtained: October 2024</p>
-                                    <p className="certification-skills">Skills: Generative AI, Prompt Engineering, Vertex AI</p>
-                                </div>
-                                <div className="certification-item">
-                                    <div className="certification-header">
-                                        <h4 className="certification-title">
-                                            • Call Centre Training
-                                        </h4>
-                                    </div>
-                                    <p className="certification-institution">Skills Excel Training Institute</p>
-                                    <p className="certification-date">Obtained: January 2024</p>
-                                    <p className="certification-skills">Skills: Customer Service, Telesales Scripting, Telephone Etiquette</p>
+                                    <p className="certification-institution">Google Cloud</p>
+                                    <p className="certification-date">
+                                        <a
+                                            className="certification-link"
+                                            href="https://www.skills.google/public_profiles/c4f94ee1-dbe8-4d80-8f9f-ad2b4dc13254/badges/29039547?qlcampaign=6s-EDUCR-70%3A%3AS8o79eUKinawpKReHd_2gQ"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            View badge
+                                        </a>
+                                    </p>
+                                    <p className="certification-skills">Skills: Compute Engine, Cloud Storage, persistent disks, Linux, NGINX</p>
                                 </div>
                             </div>
                         </div>
