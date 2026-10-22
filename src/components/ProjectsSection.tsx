@@ -24,14 +24,6 @@ type Project = {
 };
 const projects: Project[] = [
     {
-        id: 18,
-        title: 'Ultra Scraper AI',
-        description: 'A Manifest V3 Chrome extension with DOM-based extraction, field classification, data normalization, and CSV, JSON, Excel, and ZIP exports.',
-        tech: ['JavaScript', 'Chrome Extension', 'Manifest V3', 'FastAPI', 'Python', 'scikit-learn', 'NumPy', 'Pydantic', 'REST APIs'],
-        category: 'personal' as ProjectCategory,
-        year: '2026',
-    },
-    {
         id: 1,
         title: 'FIFA World Cup 2026 Prediction Pool',
         description: ' a real-time predictions app where you and your friends compete to predict World Cup match scores. Earn points for correct winners and exact scores, climb the leaderboard, and create private leagues to compete within your group. Built with React, Firebase, and live FIFA match data.',
@@ -42,11 +34,12 @@ const projects: Project[] = [
         year: 'NEWW! (2026)',
     },
     {
-        id: 17,
-        title: 'EduConnect',
-        description: 'A web platform connecting students, teachers, and administrators through academic management, course organization, and real-time notifications.',
-        tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'bcrypt', 'Google OAuth', 'SSE', 'Stripe', 'Vercel'],
+        id: 18,
+        title: 'Ultra Scraper AI',
+        description: 'A Manifest V3 Chrome extension with DOM-based extraction, field classification, data normalization, and CSV, JSON, Excel, and ZIP exports.',
+        tech: ['JavaScript', 'Chrome Extension', 'Manifest V3', 'FastAPI', 'Python', 'scikit-learn', 'NumPy', 'Pydantic', 'REST APIs'],
         category: 'personal' as ProjectCategory,
+        screenshot: '/images/ultra-scraper-ai.png',
         year: '2026',
     },
     {
@@ -59,6 +52,15 @@ const projects: Project[] = [
         demoUrl: 'https://home-manager-pi.vercel.app/',
         githubUrl: 'https://github.com/farhan1852413/HomeManager',
         year: 'NEWW! (2026)',
+    },
+    {
+        id: 17,
+        title: 'EduConnect',
+        description: 'A web platform connecting students, teachers, and administrators through academic management, course organization, and real-time notifications.',
+        tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'bcrypt', 'Google OAuth', 'SSE', 'Stripe', 'Vercel'],
+        category: 'personal' as ProjectCategory,
+        screenshot: '/images/educonnect.png',
+        year: '2026',
     },
     {
         id: 15,

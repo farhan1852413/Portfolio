@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { triggerCVDownload } from '@/utils/cv-tracker';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
@@ -44,7 +45,7 @@ export default function ResumeSection() {
                                         <h4 className="timeline-title">Bachelor of Technology in Computer Science Engineering</h4>
                                         <p className="timeline-institution">BMS College of Engineering, Bangalore</p>
                                         <p className="timeline-description">
-                                            Ranked <strong>COMEDK 600</strong>, with a <strong>98 percentile in JEE Mains</strong> and an approximately <strong>25,000 rank in JEE Advanced</strong>. Majoring in Computer Science with coursework in Algorithms and Data Structures, Object Orientation, Full Stack Web Development, Databases, Computer Networks, IT Management, Calculus, Linear Algebra, Applied Mathematics and more.
+                                            Ranked <strong>COMEDK 600</strong>, majoring in Computer Science with hands-on experience in full-stack development, backend systems, REST APIs, authentication, databases, cloud deployment, browser extensions, and machine learning tools.
                                         </p>
                                     </div>
                                 </div>
@@ -141,7 +142,10 @@ export default function ResumeSection() {
                             <div className="certifications-list">
                                 <div className="certification-item">
                                     <div className="certification-header">
-                                        <h4 className="certification-title">• Build a Website on Google Cloud Skill Badge</h4>
+                                        <h4 className="certification-title certification-title-with-logo">
+                                            <Image src="/images/google-cloud.svg" alt="Google Cloud" width={28} height={28} />
+                                            <span>Build a Website on Google Cloud Skill Badge</span>
+                                        </h4>
                                     </div>
                                     <p className="certification-institution">Google Cloud</p>
                                     <p className="certification-date">
@@ -158,7 +162,10 @@ export default function ResumeSection() {
                                 </div>
                                 <div className="certification-item">
                                     <div className="certification-header">
-                                        <h4 className="certification-title">• The Basics of Google Cloud Compute</h4>
+                                        <h4 className="certification-title certification-title-with-logo">
+                                            <Image src="/images/google-cloud.svg" alt="Google Cloud" width={28} height={28} />
+                                            <span>The Basics of Google Cloud Compute</span>
+                                        </h4>
                                     </div>
                                     <p className="certification-institution">Google Cloud</p>
                                     <p className="certification-date">

@@ -144,9 +144,7 @@ export default function AboutSection() {
                         <div className="about-section-body">
                             <div className="about-section-lines">
                                 <p className="about-section-line">
-                                    Hello, my name is <strong>Mohammad Farhan</strong>.
-                                    I am a <strong>20-year-old</strong> third-year student pursuing a
-                                    <strong> Bachelor of Technology in Computer Science Engineering</strong> at <span className="university-orange">BMS College of Engineering, Bangalore</span>, with a passion for full-stack development, a love for football, and a grind-never-stops calisthenics lifestyle.
+                                    Hello, I’m <strong>Mohammad Farhan</strong>, a Computer Science Engineering student at <span className="university-orange">BMS College of Engineering, Bangalore</span>. I’m a full-stack developer who enjoys building practical products across web applications, backend systems, browser extensions, APIs, and cloud platforms. Outside of coding, I’m passionate about football and calisthenics.
                                 </p>
                                 <p className="about-section-line">Hire the boy</p>
                             </div>
@@ -174,9 +172,9 @@ export default function AboutSection() {
                             <p className="about-section-text">
                                 I&apos;m passionate about building software that makes a real impact, is clean, intuitive and enjoyable to use. I love crafting code and thoughtful design that solves real problems.
                             </p><p className="about-section-text">
-                                With a strong foundation in theory and hands-on development, I&apos;m always learning and improving. I&apos;m looking to join a team that values innovation, collaboration and user experience.
+                                With a strong foundation in theory and hands on development, I&apos;m always learning and improving. I&apos;m looking to join a team that values innovation, collaboration and user experience.
                             </p><p className="about-section-text">
-                                If you&apos;re looking for someone that&apos;s driven, adaptable and generally excited about software and design-I&apos;m ready to contribute and grow.
+                                If you&apos;re looking for someone that&apos;s driven, adaptable and generally excited about software and design I&apos;m ready to contribute and grow.
                             </p>
                         </div>
                     </div>

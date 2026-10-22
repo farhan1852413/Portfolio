@@ -2351,6 +2351,16 @@ html.theme-christmas .download-cv-link:hover {
   z-index: 10;
 }
 
+.certification-title-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.certification-title-with-logo img {
+  flex: 0 0 auto;
+}
+
 .certification-link {
   display: inline-flex;
   align-items: center;
