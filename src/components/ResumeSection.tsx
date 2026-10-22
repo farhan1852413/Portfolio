@@ -143,7 +143,7 @@ export default function ResumeSection() {
                                 <div className="certification-item">
                                     <div className="certification-header">
                                         <h4 className="certification-title certification-title-with-logo">
-                                            <Image src="/images/google-cloud.svg" alt="Google Cloud" width={28} height={28} />
+                                            <Image src="/images/google-g.webp" alt="Google" width={28} height={28} />
                                             <span>Build a Website on Google Cloud Skill Badge</span>
                                         </h4>
                                     </div>
@@ -163,7 +163,7 @@ export default function ResumeSection() {
                                 <div className="certification-item">
                                     <div className="certification-header">
                                         <h4 className="certification-title certification-title-with-logo">
-                                            <Image src="/images/google-cloud.svg" alt="Google Cloud" width={28} height={28} />
+                                            <Image src="/images/google-g.webp" alt="Google" width={28} height={28} />
                                             <span>The Basics of Google Cloud Compute</span>
                                         </h4>
                                     </div>
