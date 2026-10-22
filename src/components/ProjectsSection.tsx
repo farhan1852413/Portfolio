@@ -36,7 +36,7 @@ const projects: Project[] = [
     {
         id: 18,
         title: 'Ultra Scraper AI',
-        description: 'A Manifest V3 Chrome extension with DOM-based extraction, field classification, data normalization, and CSV, JSON, Excel, and ZIP exports.',
+        description: 'An intelligent Manifest V3 Chrome extension for DOM-based web extraction, optional ML field classification, data normalization, and CSV, JSON, Excel, and ZIP exports.',
         tech: ['JavaScript', 'Chrome Extension', 'Manifest V3', 'FastAPI', 'Python', 'scikit-learn', 'NumPy', 'Pydantic', 'REST APIs'],
         category: 'personal' as ProjectCategory,
         screenshot: '/images/ultra-scraper-ai.png',
@@ -312,9 +312,7 @@ export default function ProjectsSection() {
                     {visibleProjects.map((project) => {
                         //can i remove this line?
                         
-                        const aspectRatioClass = project.title === 'Ultra Scraper AI'
-                            ? 'project-image-four-three'
-                            : 'project-image-video';
+                        const aspectRatioClass = 'project-image-video';
 
                         // Arrow icon SVG
                         const ArrowIcon = () => (
