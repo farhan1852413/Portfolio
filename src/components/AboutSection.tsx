@@ -144,7 +144,7 @@ export default function AboutSection() {
                         <div className="about-section-body">
                             <div className="about-section-lines">
                                 <p className="about-section-line">
-                                    Hello, I’m <strong>Mohammad Farhan</strong>, a Computer Science Engineering student at <span className="university-orange">BMS College of Engineering, Bangalore</span>. I’m a full-stack developer who enjoys building practical products across web applications, backend systems, browser extensions, APIs, and cloud platforms. Outside of coding, I’m passionate about football and calisthenics.
+                                    Hello, I’m <strong>Mohammad Farhan</strong>, a Computer Science Engineering student at <span className="university-orange">BMS College of Engineering, Bangalore</span>. I’m a software undergrad engineer who enjoys building practical products across web applications, backend systems, browser extensions, APIs, and cloud platforms. Outside of coding, I’m passionate about football and calisthenics.
                                 </p>
                                 <p className="about-section-line">Hire the boy</p>
                             </div>
