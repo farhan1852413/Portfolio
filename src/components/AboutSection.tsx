@@ -210,11 +210,11 @@ export default function AboutSection() {
                                     </div>
                                     <div className="service-content">
                                         <h4 className="service-title">Full Stack Development</h4>
-                                        <p className="service-description">Developing end-to-end web applications, from the database to frontend</p>
+                                        <p className="service-description">Building complete web apps with React, Node.js, and databases.</p>
                                     </div>
                                 </div>
 
-                                {/* Mobile App Development - Phone that vibrates/scales */}
+                                {/* API Development - Box that opens up */}
                                 <div
                                     className="service-item"
                                     onMouseEnter={() => setHoveredService(1)}
@@ -233,12 +233,12 @@ export default function AboutSection() {
                                         </svg>
                                     </div>
                                     <div className="service-content">
-                                        <h4 className="service-title">Mobile App Development</h4>
-                                        <p className="service-description">Building high-performance mobile applications for both iOS and Android</p>
+                                        <h4 className="service-title">API &amp; Backend Development</h4>
+                                        <p className="service-description">Creating secure APIs with authentication, CRUD, and real-time features.</p>
                                     </div>
                                 </div>
 
-                                {/* UI/UX Design - Layout that expands */}
+                                {/* Browser Extensions & Automation - Phone that vibrates/scales */}
                                 <div
                                     className="service-item"
                                     onMouseEnter={() => setHoveredService(2)}
@@ -258,12 +258,12 @@ export default function AboutSection() {
                                         </svg>
                                     </div>
                                     <div className="service-content">
-                                        <h4 className="service-title">UI/UX Design</h4>
-                                        <p className="service-description">Designing intuitive user interfaces with a focus on responsive layouts</p>
+                                        <h4 className="service-title">Browser Extensions &amp; Automation</h4>
+                                        <p className="service-description">Developing Chrome extensions for browser automation and data extraction.</p>
                                     </div>
                                 </div>
 
-                                {/* API Development - Box that opens up */}
+                                {/* Cloud Deployment - Layout that expands */}
                                 <div
                                     className="service-item"
                                     onMouseEnter={() => setHoveredService(3)}
@@ -283,8 +283,8 @@ export default function AboutSection() {
                                         </svg>
                                     </div>
                                     <div className="service-content">
-                                        <h4 className="service-title">API Development</h4>
-                                        <p className="service-description">Building robust APIs to connect systems and ensure seamless data exchange</p>
+                                        <h4 className="service-title">Cloud Deployment</h4>
+                                        <p className="service-description">Deploying and scaling applications with modern cloud platforms.</p>
                                     </div>
                                 </div>
                             </div>

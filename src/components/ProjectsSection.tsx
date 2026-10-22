@@ -24,14 +24,30 @@ type Project = {
 };
 const projects: Project[] = [
     {
+        id: 18,
+        title: 'Ultra Scraper AI',
+        description: 'A Manifest V3 Chrome extension with DOM-based extraction, field classification, data normalization, and CSV, JSON, Excel, and ZIP exports.',
+        tech: ['JavaScript', 'Chrome Extension', 'Manifest V3', 'FastAPI', 'Python', 'scikit-learn', 'NumPy', 'Pydantic', 'REST APIs'],
+        category: 'personal' as ProjectCategory,
+        year: '2026',
+    },
+    {
         id: 1,
-        title: 'Fifa WC 2026 fantasy site',
+        title: 'FIFA World Cup 2026 Prediction Pool',
         description: ' a real-time predictions app where you and your friends compete to predict World Cup match scores. Earn points for correct winners and exact scores, climb the leaderboard, and create private leagues to compete within your group. Built with React, Firebase, and live FIFA match data.',
         tech: ['React', 'TypeScript', 'Firebase Realtime Database', 'Firebase Auth', 'Firebase Hosting', 'Vite', 'Tailwind CSS', 'React Router', 'FIFA Public API', 'Cloudinary'],
         category: 'personal' as ProjectCategory,
         screenshot: '/images/fifawc2026.webp',
         demoUrl: 'https://fifa-wc-2026-six.vercel.app',
         year: 'NEWW! (2026)',
+    },
+    {
+        id: 17,
+        title: 'EduConnect',
+        description: 'A web platform connecting students, teachers, and administrators through academic management, course organization, and real-time notifications.',
+        tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'bcrypt', 'Google OAuth', 'SSE', 'Stripe', 'Vercel'],
+        category: 'personal' as ProjectCategory,
+        year: '2026',
     },
     {
         id: 12,
@@ -65,26 +81,6 @@ const projects: Project[] = [
         demoUrl: 'https://clinic-lake-eta.vercel.app/',
         year: '2026',
         clientOrder: 2,
-    },
-    {
-        id: 8,
-        title: 'JobTrackr',
-        description: 'A smart job application tracker that syncs directly with your Gmail to keep all your applications in one place. Built with Next.js and MongoDB, it automatically pulls your latest emails and organizes them in a clean, responsive dashboard so you can apply with clarity and confidence.',
-        tech: ['Next.js', 'React', 'TypeScript', 'MongoDB', 'OAuth', 'Nodemailer', 'UI/UX', 'JWT', 'TailwindCSS'],
-        category: 'personal' as ProjectCategory,
-        screenshot: '/images/jobtrackr.webp',
-        demoUrl: 'https://jobtrackr-xabiso.vercel.app/',
-        year: 'NEW! (2026)',
-    },
-    {
-        id: 9,
-        title: 'IntelliSave Chrome Extension',
-        description:
-            'An intelligent Chrome extension I built to automatically sort your downloaded files into organized folders. I started this in 2024 to solve my own messy Downloads folder problem, and decided to publish it for others to enjoy! It runs quietly in the background, keeping your files perfectly categorized by type and source. Download it on Chrome Web Store and clear your messy downloads folder!',
-        tech: ['Chrome Extension', 'JavaScript', 'Manifest V3', 'Automation'],
-        category: 'personal' as ProjectCategory,
-        screenshot: '/images/intellisave.webp',
-        
     },
     {
         id: 13,

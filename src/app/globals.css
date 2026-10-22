@@ -1498,6 +1498,11 @@ body.navbar-active .landing-section::after {
   z-index: -1;
 }
 
+/* Let the resume end with its content instead of forcing an empty viewport-sized gap before projects. */
+#resume.portfolio-section {
+  min-height: auto;
+}
+
 /* Projects Section - Same doubled effect for title */
 #projects .section-title {
   font-family: "VT323", monospace;

@@ -44,7 +44,7 @@ export default function ResumeSection() {
                                         <h4 className="timeline-title">Bachelor of Technology in Computer Science Engineering</h4>
                                         <p className="timeline-institution">BMS College of Engineering, Bangalore</p>
                                         <p className="timeline-description">
-                                            Ranked <strong>COMEDK 600</strong>. Majoring in Computer Science with coursework in Algorithms and Data Structures, Object Orientation, Full Stack Web Development, Databases, Computer Networks, IT Management, Calculus, Linear Algebra, Applied Mathematics and more.
+                                            Ranked <strong>COMEDK 600</strong>, with a <strong>98 percentile in JEE Mains</strong> and an approximately <strong>25,000 rank in JEE Advanced</strong>. Majoring in Computer Science with coursework in Algorithms and Data Structures, Object Orientation, Full Stack Web Development, Databases, Computer Networks, IT Management, Calculus, Linear Algebra, Applied Mathematics and more.
                                         </p>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@ export default function ResumeSection() {
                             <h3 className="resume-group-title">SKILLS</h3>
                             <div className="skill-item">
                                 <div className="skill-header">
-                                    <span className="skill-name"><strong>Programming Languages:</strong> C#, C++, Java, SQL</span>
+                                    <span className="skill-name"><strong>Languages:</strong> JavaScript, C++, SQL</span>
                                     <span className="skill-percentage">90%</span>
                                 </div>
                                 <div className="skill-bar">
@@ -197,7 +197,7 @@ export default function ResumeSection() {
                             </div>
                             <div className="skill-item">
                                 <div className="skill-header">
-                                    <span className="skill-name"><strong>Web Technologies:</strong> HTML, CSS, JavaScript, TypeScript</span>
+                                    <span className="skill-name"><strong>Backend &amp; Databases:</strong> Node.js, Express.js, MongoDB, MySQL, REST APIs, WebSockets, Firebase</span>
                                     <span className="skill-percentage">100%</span>
                                 </div>
                                 <div className="skill-bar">
@@ -206,7 +206,7 @@ export default function ResumeSection() {
                             </div>
                             <div className="skill-item">
                                 <div className="skill-header">
-                                    <span className="skill-name"><strong>Frameworks:</strong> ASP.NET Web Forms, ASP.NET API, Next.js</span>
+                                    <span className="skill-name"><strong>Frontend:</strong> React.js, HTML5, CSS3, TailwindCSS</span>
                                     <span className="skill-percentage">90%</span>
                                 </div>
                                 <div className="skill-bar">
@@ -215,7 +215,7 @@ export default function ResumeSection() {
                             </div>
                             <div className="skill-item">
                                 <div className="skill-header">
-                                    <span className="skill-name"><strong>Mobile Development:</strong> React Native with Expo</span>
+                                    <span className="skill-name"><strong>Authentication &amp; Security:</strong> JWT, Google OAuth, bcrypt, Role-Based Access Control</span>
                                     <span className="skill-percentage">95%</span>
                                 </div>
                                 <div className="skill-bar">
@@ -224,7 +224,7 @@ export default function ResumeSection() {
                             </div>
                             <div className="skill-item">
                                 <div className="skill-header">
-                                    <span className="skill-name"><strong>Design Tools:</strong> Adobe Photoshop, Illustrator, Figma</span>
+                                    <span className="skill-name"><strong>APIs &amp; Architecture:</strong> Server-Sent Events, CRUD Operations, MVC Architecture, Manifest V3</span>
                                     <span className="skill-percentage">85%</span>
                                 </div>
                                 <div className="skill-bar">
@@ -233,7 +233,7 @@ export default function ResumeSection() {
                             </div>
                             <div className="skill-item">
                                 <div className="skill-header">
-                                    <span className="skill-name"><strong>Team Collaboration:</strong> Git, Github, Trello, Agile workflows, Strong Communicator & Team Player</span>
+                                    <span className="skill-name"><strong>Data &amp; Machine Learning:</strong> scikit-learn, NumPy, Pandas</span>
                                     <span className="skill-percentage">95%</span>
                                 </div>
                                 <div className="skill-bar">
