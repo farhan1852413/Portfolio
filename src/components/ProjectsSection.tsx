@@ -312,7 +312,9 @@ export default function ProjectsSection() {
                     {visibleProjects.map((project) => {
                         //can i remove this line?
                         
-                        const aspectRatioClass = 'project-image-video';
+                        const aspectRatioClass = project.title === 'Ultra Scraper AI'
+                            ? 'project-image-four-three'
+                            : 'project-image-video';
 
                         // Arrow icon SVG
                         const ArrowIcon = () => (
